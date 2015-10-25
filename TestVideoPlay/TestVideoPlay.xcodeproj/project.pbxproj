@@ -15,6 +15,7 @@
 		6508FA6E1BDB363A00C32EAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6508FA6C1BDB363A00C32EAF /* LaunchScreen.xib */; };
 		6508FA7A1BDB363A00C32EAF /* TestVideoPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508FA791BDB363A00C32EAF /* TestVideoPlayTests.m */; };
 		6508FA841BDB36C000C32EAF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6508FA831BDB36C000C32EAF /* MediaPlayer.framework */; };
+		6546BEE41BDD158700AAF1BE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6546BEE31BDD158700AAF1BE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		6508FA781BDB363A00C32EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6508FA791BDB363A00C32EAF /* TestVideoPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVideoPlayTests.m; sourceTree = "<group>"; };
 		6508FA831BDB36C000C32EAF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6546BEE31BDD158700AAF1BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		6508FA511BDB363900C32EAF = {
 			isa = PBXGroup;
 			children = (
+				6546BEE31BDD158700AAF1BE /* README.md */,
 				6508FA831BDB36C000C32EAF /* MediaPlayer.framework */,
 				6508FA5C1BDB363900C32EAF /* TestVideoPlay */,
 				6508FA761BDB363A00C32EAF /* TestVideoPlayTests */,
@@ -225,6 +228,7 @@
 			files = (
 				6508FA661BDB363900C32EAF /* ViewController.m in Sources */,
 				6508FA631BDB363900C32EAF /* AppDelegate.m in Sources */,
+				6546BEE41BDD158700AAF1BE /* README.md in Sources */,
 				6508FA601BDB363900C32EAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +422,7 @@
 				6508FA7F1BDB363A00C32EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6508FA801BDB363A00C32EAF /* Build configuration list for PBXNativeTarget "TestVideoPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				6508FA821BDB363A00C32EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
