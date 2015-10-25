@@ -149,6 +149,7 @@
 
 - (NSUInteger)supportedInterfaceOrientations
 {
+    //保证当前页面只能竖屏幕
     return UIInterfaceOrientationMaskPortrait;
 }
 
